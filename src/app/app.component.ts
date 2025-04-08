@@ -10,7 +10,7 @@ import KTLayout from '../metronic/app/layouts/demo1';
 @Component({
 	selector: 'app-root',
 	standalone: true,
-	imports: [RouterOutlet, HeaderComponent, FooterComponent, SidebarComponent, SearchModalComponent],
+	imports: [RouterOutlet, HeaderComponent, FooterComponent, SearchModalComponent, SidebarComponent],
 	templateUrl: './app.component.html',
 	styleUrl: './app.component.scss'
 })
